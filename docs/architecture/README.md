@@ -17,7 +17,7 @@ This separation enables customers to meet compliance, security, and data residen
 
 The following diagram provides a high-level overview of the core components that make up the Decube Hosted Data Plane.
 
-![Component Description](component-description.png)
+![Component Description](../component-description.png)
 
 ---
 
@@ -25,7 +25,7 @@ The following diagram provides a high-level overview of the core components that
 
 The component diagram below illustrates interactions between the core Decube Data Plane services, including APIs, databases, storage layers, job orchestration components, and connected data sources.
 
-![Component Diagram](component-diagram.png)
+![Component Diagram](../component-diagram.png)
 
 ### Key Components
 
@@ -62,7 +62,7 @@ The component diagram below illustrates interactions between the core Decube Dat
 
 The table below maps Decube Data Plane components to the underlying technologies used.
 
-![Technology Mapping](technology-mapping.png)
+![Technology Mapping](../technology-mapping.png)
 
 ---
 
@@ -70,7 +70,7 @@ The table below maps Decube Data Plane components to the underlying technologies
 
 The Hosted Data Plane requires the following software components.
 
-![Software Requirements](software-requirements.png)
+![Software Requirements](../software-requirements.png)
 
 ### Notes
 - All software components are provided and maintained by **Decube**.
@@ -82,7 +82,7 @@ The Hosted Data Plane requires the following software components.
 
 The Hosted Data Plane is deployed within a **dedicated AWS account** and follows AWS security, networking, and availability best practices.
 
-![Hosted Data Plane Architecture – AWS](hosted-data-plane-architecture-aws.png)
+![Hosted Data Plane Architecture – AWS](../hosted-data-plane-architecture-aws.png)
 
 ### Architecture Highlights
 
@@ -114,7 +114,7 @@ The Hosted Data Plane is deployed within a **dedicated AWS account** and follows
 
 The minimum AWS cloud resources required to deploy the Hosted Data Plane are shown below.
 
-![Cloud Resources – Minimum](cloud-resources-minimum.png)
+![Cloud Resources – Minimum](../cloud-resources-minimum.png)
 
 ---
 
@@ -133,7 +133,7 @@ The Hosted Data Plane deployment is performed on AWS Cloud in the region request
 
 Customers must provide non-overlapping CIDR ranges for the Hosted Data Plane.
 
-![Networking Requirements](networking-requirements.png)
+![Networking Requirements](../networking-requirements.png)
 
 ### Key Points
 
@@ -200,6 +200,6 @@ Customers are notified prior to applying critical security patches.
 
 ---
 
-## ✅ Summary
+##  Summary
 
 This repository documents the AWS-based Decube Hosted Data Plane architecture, covering infrastructure, security, networking, deployment, observability, and operational best practices required for enterprise-grade data management.
