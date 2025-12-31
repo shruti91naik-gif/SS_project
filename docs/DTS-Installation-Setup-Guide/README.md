@@ -36,6 +36,25 @@ cd terraform
 
 ---
 
+### 1️⃣ Create DTS Root Directory (Unix / Linux)
+
+```bash
+mkdir -p DTS
+cd DTS
+
+```
+---
+
+### 2️⃣ Create Terraform Directory (Unix / Linux)
+
+```bash
+mkdir -p terraform
+cd terraform
+
+```
+
+---
+
 ##  Terraform Files Placement
 
 - Copy **Decube-provided Terraform files** into the `terraform` directory  
@@ -60,7 +79,7 @@ DTS/
 ##  Architecture Overview
 
 ```
-Local System (Windows PowerShell)
+Local System (Windows PowerShell/Unix/Linux)
         ↓
 Terraform (Infrastructure as Code)
         ↓
