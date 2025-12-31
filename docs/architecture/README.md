@@ -146,7 +146,7 @@ Customers must provide non-overlapping CIDR ranges for the Hosted Data Plane.
 
 The Hosted Data Plane collects and stores metadata required for platform functionality.
 
-![Collected Metadata](collected-metadata-hosted-data-plane.png)
+![Collected Metadata](../collected-metadata-hosted-data-plane.png)
 
 ### Security & Retention
 
